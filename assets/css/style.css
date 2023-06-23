@@ -181,6 +181,15 @@ section#hero .myAlert::before{
 }
 
 
+body a{
+    padding-bottom: 2px !important;
+}
+body a:hover{
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+    transform: scale(1.05);
+}
+
 @media screen and (max-width:992px){
     section#aside .social-icons ul{
         display: none !important;
