@@ -1,0 +1,59 @@
+section#header{
+    background: url('../imgs/a7fdf481ca3ce6ec24a15a0302d618e9.jpg');
+    background-size: cover;
+}
+
+section#header select{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+section#header h1{
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0 0 27px;
+}
+
+section#header section#search input{
+    padding: 20px 32px 21px 59px;
+    background: hsla(0,0%,100%,.2);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+section#header section#search input::placeholder{
+    color: white;
+}
+
+
+section#footer{
+    margin-top: 104px;
+    padding: 48px 0;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:786px){
+    h1{
+        font-size: 21px !important;
+    }
+    h6{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .nav-content a{
+        font-size: 10px !important;
+    }
+    p.myFlex{
+        flex-wrap: wrap !important;
+    }
+    .languages i,select{
+        font-size: 10px;
+    }
+}

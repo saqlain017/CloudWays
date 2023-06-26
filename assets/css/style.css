@@ -218,6 +218,9 @@ body a:hover{
     .my-footer-content{
         flex-basis: 50%;
     }
+    section#nav2{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width:786px){
